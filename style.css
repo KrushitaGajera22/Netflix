@@ -1,0 +1,106 @@
+
+        *{
+            box-sizing: border-box;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin: 0;
+            top: 0;
+        }
+        .background{
+            background-image: url(images/background.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: 60%;
+            position: absolute;
+            opacity: 0.8;
+        }
+        .select span{
+            color: white;
+            position: relative;
+            margin-top: 6px;
+        }
+        .select select{
+            background: transparent;
+            color: white;
+            border-color: white;
+        }
+        header button{
+            margin-left: 20px;
+        }
+        .content{
+            margin: 100px;
+            text-align: center;
+            padding: 10px;
+            color: white;
+        }
+        .content h1{
+            font-size: 40px;
+            font-weight: bolder;
+        }
+        .content h3{
+            font-size: 25px;
+        }
+        .content p{
+            margin-top: 20px;
+            font-size: 17px;
+        }
+        .form-inline{
+            position: relative;
+            margin-top: 15px;
+            justify-content: center;
+        }
+        .form-inline input{
+            padding: 25px;
+        }
+        .form-inline button{
+            padding: 13px;
+        }
+        section{
+            background-color: #000000;
+            color: white;
+            height: 350px;
+        }
+        .col{
+            margin-left: 50px;
+        }
+        section h1{
+            text-align: left;
+            font-size: 50px;
+            font-weight: 600;
+            margin-top: 90px;
+        }
+        section p{
+            margin-top: 20px;
+            font-size: 30px;
+            font-weight: 200;
+        }
+        section .media{
+            margin-right: 20px;
+            margin-top: 40px;
+        }
+        section .media video{
+            border: 5px solid gray;
+        }
+        .main{
+            background-color: #000000;
+            color: white;
+            height: 350px;
+        }
+        .text{
+            float: right;
+        }
+        section .media1 img{
+            height: 300px;
+            background: transparent;
+        }
+        .text1{
+            float: left;
+        }
+        section .media2 img{
+            width: 20%;
+            height: 300px;
+            background: transparent;
+        }
+        .media2 video{
+            position: relative;
+        }
