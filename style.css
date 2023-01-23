@@ -14,19 +14,23 @@
             position: absolute;
             background-color: rgba(0, 0, 0, 0.3);
             z-index: -1;
-            border-bottom: 10px solid grey;
         }
-        .container-fluid .select span{
-            color: white;
-            margin-top: 20px;
+        .container-fluid .select img{
+            margin-top: 23px;
+            margin-left: 5px;
+            position: absolute;
+        }
+        .container-fluid .select .img1{
+            margin-top: 23px;
+            margin-left: 80px;
             position: absolute;
         }
         .container-fluid .select .language{
-            background: none;
+            background: transparent;
+            appearance: none;
             color: white;
-            border-color: white;
-            padding: 15px;
-            justify-content: space-between;
+            padding: 5px 24px ;
+            border: 1px solid white;
             cursor: pointer;
         }
         .container-fluid .select .language option{
@@ -34,9 +38,9 @@
         }
         .container-fluid .select button{
             cursor: pointer;
-            font-size: 20px;
+            font-size: 15px;
             margin-left: 20px;
-            padding: 8px;
+            padding: 10px;
         }
         .content{
             width: 950px;
@@ -68,14 +72,14 @@
             width: 500px;
             margin: auto;
             padding: 15px;
-            font-size: 20px;
+            font-size: 15px;
         }
         .content .email button{
             width: 150px;
-            padding: 16px;
+            padding: 13px;
             font-size: 20px;
             margin: auto;
-            margin-top: -5px;
+            margin-top: -3px;
             margin-left: -5px;
             cursor: pointer;
         }
@@ -92,10 +96,32 @@
             align-items: center;
             padding: 50px 0; 
         }
+        .row2{
+            display: flex;
+            width: 100%;
+            align-items: center;
+            padding: 50px 0; 
+        }
         .section1 h1{
             font-size: 50px;
-            font-weight: 600;
+            font-weight: 500;
             margin-bottom: 20px;
+        }
+        .media1 video{
+            display: inline-block;
+            position: absolute;
+            top: 35px;
+            left: 30px;
+            background: transparent;
+        }
+        .media1{
+            float: right;
+            background-image: url(images/image2.png) ;
+            background-repeat: no-repeat;
+            width: 600px;
+            height: 360px;
+            overflow: hidden;
+            position: relative;
         }
         .section1 p{
             width: 400px;
@@ -106,42 +132,45 @@
         .section1 .media img{
             width: 80%;
         }
-        .section{
+        .container-fluid{
             background: #000;
             color: white;
         }
         .FAQ{
             padding-top: 80px;
-            margin-left: 150px;
             margin-bottom: 40px;
             border-top: 6px solid gray;
         }
         .FAQ h2{
             width: 800px;
-            font-size: 50px;
-            font-weight: 600;
-            align-items: center;
+            margin-left: 150px;
+            font-size: 40px;
+            font-weight: 500;
+            text-align: center;
             justify-content: center;
             margin: auto;
+        }
+        .card-header button img{
+            float: right;
         }
         .card-header button{
             color: white;
             background: #303030;
-            font-size: 28px;
+            font-size: 20px;
             text-align: left;
-            padding: 10px;
-            width: 900px;
-            margin-left: 230px;
+            padding: 20px;
+            width: 800px;
+            margin-left: 28%;
             border: none;
             outline: none;
             margin-bottom: -20px;
         }
         .card-body{
             color: white;
-            font-size: 22px;
+            font-size: 20px;
             background: #303030;
-            width: 900px;
-            margin-left: 250px;
+            width: 800px;
+            margin-left: 28.5%;
             align-items: center;
             justify-content: center;
         }
@@ -155,24 +184,76 @@
         .email input{
             width: 500px;
             padding: 15px;
-            margin-left: 350px;
-            font-size: 20px;
+            margin-left: 420px;
+            font-size: 15px;
         }
         .email button{
             width: 150px;
-            padding: 16px;
+            padding: 13px;
             font-size: 20px;
             margin: auto;
-            margin-top: -5px;
             margin-left: -5px;
             cursor: pointer;
         }
 
-        .footer{
+        footer {
+            padding: 55px;
+            border-top: 6px solid gray;
+            margin-top: 80px;
+
+        }
+        footer h5{
+            font-size: 16px;
+            margin-top: 30px;
+            margin-bottom: 25px;
+            margin-left: 110px;
+            
+        }
+        footer .list{
+            list-style: none;
             display: flex;
+            align-items: center;
             justify-content: center;
             justify-content: space-between;
-            padding: 45px;
-            border-top: 6px solid gray;
-            margin-top: 50px;
+            margin-right: 200px;
+            margin-left: 110px;
+        }
+        li{
+            display: block;
+            min-width: 150px;
+            font-size: 13px;
+            padding: 8px;
+        }
+        .language .button{
+            margin-top: 30px;
+            border: 1px solid white;
+            max-width: max-content;
+            cursor: pointer;
+            color: #737373;
+            margin-left: 110px;
+        }
+        .language .button .img1{
+            margin-right: 10px;
+        }
+        .language .button .language{
+            background: none;
+            appearance: none;
+            outline: none;
+            border: none;
+            color: white;
+            padding: 5px 0;
+            cursor: pointer;
+        }
+        .language .button .language option{
+            background-color: grey;
+        }
+
+        footer p{
+            margin-top: 30px;
+            margin-left: 115px;
+            font-size: 13px;
+        }
+
+        @media only screen and (max-width: 600px){
+
         }
